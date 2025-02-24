@@ -1,27 +1,28 @@
 # mazatlanBeachStore
 
 1. React (Core Features)
-Componentes funcionales (React.FC) → Estás usando la sintaxis de función en vez de clases.
-Props y Estado (useState) → Para manejar los productos, el carrito y el filtro de precios.
-Efectos (useEffect) → Para cargar productos desde una API externa y modificar elementos en el DOM.
-Context API (createContext, useContext) → Para manejar el estado global del carrito y productos.
-Referencias (useRef) → Para manipular directamente el DOM y cambiar el color del título.
+Functional Components (React.FC) → You're using function-based components instead of class-based ones.
+Props & State (useState) → Managing products, the shopping cart, and the price filter.
+Effects (useEffect) → Fetching products from an external API and modifying DOM elements.
+Context API (createContext, useContext) → Managing global state for products and the cart.
+References (useRef) → Directly manipulating the DOM and changing the title color.
 2. React Hooks
-useState → Manejo del estado para productos, carrito y estado del pago.
-useEffect → Fetch de datos y manipulación del DOM.
-useContext → Compartición del estado global (productos y carrito).
-useRef → Acceder y modificar elementos directamente en el DOM.
-3. JavaScript y TypeScript
-Manejo de Arrays (map, filter, reduce) → Para renderizar productos y calcular totales en el carrito.
-Uso de interfaces (interface Product) → Definición de tipos en TypeScript para mayor robustez.
-Funciones asíncronas (async/await) → Fetch de productos desde la API externa.
-4. CSS y Diseño Responsivo
-Grid (display: grid) → Para organizar los productos de manera responsiva.
-Flexbox (display: flex) → Para centrar elementos en la barra de navegación.
-Border Radius (border-radius) → Para darle estilo a los elementos.
-Transiciones (transition: background-color 0.3s) → Para animaciones en botones.
-Background Image (background-image) → Para personalizar el navbar con una imagen de fondo.
-5. Manejo del Carrito
-Agrupación de productos (reduce) → Para calcular la cantidad y el total de cada producto en el carrito.
-Filtrado (filter) → Para eliminar productos del carrito.
-Actualización del estado global (setCart) → Para reflejar cambios en la UI.
+useState → Managing state for products, the cart, and the checkout status.
+useEffect → Fetching data and handling DOM changes.
+useContext → Sharing global state (products and cart).
+useRef → Accessing and modifying DOM elements directly.
+3. JavaScript & TypeScript
+Array Methods (map, filter, reduce) → Rendering products and calculating totals in the cart.
+Interfaces (interface Product) → Defining TypeScript types for better structure.
+Asynchronous Functions (async/await) → Fetching products from an external API.
+4. CSS & Responsive Design
+Grid (display: grid) → Organizing products responsively.
+Flexbox (display: flex) → Aligning elements in the navbar.
+Border Radius (border-radius) → Styling elements.
+Transitions (transition: background-color 0.3s) → Button animations.
+Background Image (background-image) → Customizing the navbar with an image.
+5. Shopping Cart Functionality
+Grouping Products (reduce) → Calculating product quantities and totals in the cart.
+Filtering (filter) → Removing products from the cart.
+Global State Updates (setCart) → Reflecting changes in the UI.
+
